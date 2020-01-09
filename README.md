@@ -1,4 +1,4 @@
-###QUESTÃO I
+### QUESTÃO I
 
 Dado um array de números inteiros, retorne os índices dos
 dois números de forma que eles se somem a um alvo
@@ -17,7 +17,7 @@ Como nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
-###QUESTÃO II
+### QUESTÃO II
 
 Um bracket é considerado qualquer um dos seguintes caracteres: (, ), {, }, [ ou ].
 
@@ -42,7 +42,7 @@ EXEMPLO:
 {{[[(())]]}} SIM
 ```
 
-###QUESTÃO III
+### QUESTÃO III
 
 Digamos que você tenha um array para o qual o elemento i
 é o preço de uma determinada ação no dia i.
@@ -62,7 +62,7 @@ Output: 0 (Nesse caso nenhuma transação deve ser feita, lucro máximo igual a 
 ```
 
 
-###QUESTÃO IV
+### QUESTÃO IV
 
 Dados n inteiros não negativos representando um mapa de
 elevação onde a largura de cada barra é 1, calcule quanta
