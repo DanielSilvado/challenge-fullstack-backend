@@ -1,4 +1,4 @@
-### QUESTÃO I
+###QUESTÃO I
 
 Dado um array de números inteiros, retorne os índices dos
 dois números de forma que eles se somem a um alvo
@@ -10,13 +10,14 @@ vezes.
 Um número é considerado feliz, se em algum ponto a soma de seus dígitos ao quadrado equivale a 1.
 
 ```
-####EXEMPLO
+EXEMPLO:
+
 Dado nums = [2, 7, 11, 15], alvo = 9,
 Como nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
-### QUESTÃO II
+###QUESTÃO II
 
 Um bracket é considerado qualquer um dos seguintes caracteres: (, ), {, }, [ ou ].
 
@@ -34,13 +35,14 @@ balanceada. Se uma string estiver balanceada, retorne SIM. Caso contrário, reto
 NAO.
 
 ```
-####EXEMPLO
+EXEMPLO:
+
 {[()]} SIM
 {[(])} NAO
 {{[[(())]]}} SIM
 ```
 
-### QUESTÃO III
+###QUESTÃO III
 
 Digamos que você tenha um array para o qual o elemento i
 é o preço de uma determinada ação no dia i.
@@ -50,7 +52,8 @@ transação (ou seja, comprar uma e vender uma ação), crie
 um algoritmo para encontrar o lucro máximo.
 
 ```
-####EXEMPLO
+EXEMPLO:
+
 Input: [7,1,5,3,6,4]
 Output: 5 (Comprou no dia 2 (preço igual a 1) e vendeu no dia 5 (preço igual a 6), lucro foi de 6 – 1 = 5
 
@@ -66,7 +69,8 @@ elevação onde a largura de cada barra é 1, calcule quanta
 água é capaz de reter após a chuva.
 
 ```
-####EXEMPLO
+EXEMPLO:
+
 Input: [0,1,0,2,1,0,1,3,2,1,2,1]
 Output: 6
 ```
