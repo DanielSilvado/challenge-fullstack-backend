@@ -1,14 +1,10 @@
 function targetSearch(arr, target){
-  const mapValues = {}
+  const mapValues = {};
   for (let i = 0; i < arr.length; i++) {
-    var num = arr[i];
-    var dual = target - num
-
-    if (mapValues.propertyIsEnumerable(dual)){
-      return [mapValues[dual], i]
-    }
-    mapValues[num] = i
+    let value = arr[i];
+    let dual = target - value;
+    if (mapValues.propertyIsEnumerable(dual)) return console.log(`Índices: ${[mapValues[dual], i]}`);
+    mapValues[value] = i;
   }
-
-  return "Valor não encontrado"
+  return console.log("Valor não encontrado");
 }
